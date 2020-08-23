@@ -45,7 +45,7 @@ forLoop:
 			fmt.Printf("%s\n", runCommand("pwd", []string{}))
 		case specialCommand:
 			if prompt == "$ " {
-				fmt.Print("The flag is r2con2020{")
+				fmt.Print("The flag is r2con{")
 				for i := 0; i < 3; i++ {
 					fmt.Print(".")
 					time.Sleep(1 * time.Second)
